@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", system-ui, Roboto, sans-serif;
+  /* Forest green — from the KeyRoute mountains & "HOLIDAYS" ribbon */
+  --color-forest-50: #effaf2;
+  --color-forest-100: #d8f2df;
+  --color-forest-200: #b2e4c1;
+  --color-forest-300: #7fcf9a;
+  --color-forest-400: #48b06f;
+  --color-forest-500: #23934f;
+  --color-forest-600: #18773f;
+  --color-forest-700: #155f35;
+  --color-forest-800: #144c2d;
+  --color-forest-900: #103d25;
+  /* Route orange — from the "KEY" lettering & map pin */
+  --color-route-400: #fbab3a;
+  --color-route-500: #f7941d;
+  --color-route-600: #e07a0b;
+  /* Sky / navy — from the compass ring & "ROUTE" lettering */
+  --color-sky-50: #f2f8fd;
+  --color-sky-100: #e1effa;
+  --color-navy-600: #2a5aa0;
+  --color-navy-700: #1e4682;
+  --color-navy-800: #1b3a6b;
+  --color-navy-900: #132a4f;
+  --color-gold-400: #f5c542;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+section[id] {
+  scroll-margin-top: 72px;
+}
